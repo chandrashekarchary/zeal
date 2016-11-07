@@ -1,0 +1,32 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid":"AllowUsersAllActionsForCredentials",
+      "Effect": "Allow",
+      "Action": [
+          "iam:*LoginProfile", 
+          "iam:*AccessKey*",
+          "iam:*SigningCertificate*"
+      ],
+      "Resource": [
+        "arn:aws:iam::123456789101:user/${aws:username}"
+      ]
+    },
+    {
+      "Sid":"AllowUsersToSeeStatsOnIAMConsoleDashboard",
+      "Effect": "Allow",
+      "Action": [
+        "iam:GetAccount*",
+        "iam:ListAccount*"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Sid":"AllowUsersToListUsersInConsole",
+      "Action": "iam:ListUsers",
+      "Effect": "Allow",
+      "Resource": "arn:aws:iam::123456789101:user/*"
+    }
+  ]
+}

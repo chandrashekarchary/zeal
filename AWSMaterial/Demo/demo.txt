@@ -1,0 +1,27 @@
+Idea 
+
+Design application architecture
+
+Requests infrastructure
+	if hardware available
+
+	if not
+		Procurement Process starts
+		Server delivered	
+
+Server Commissioning
+	Power connection
+	Network connection
+	OS/Hypervisor installation		
+	Hardening
+
+Virtual machine creation
+	Hardening 
+		creating support users
+		ntp install and configuration 
+		monitoring software installation
+	Build software components
+		web server/ application server/ database server 
+	Validation 
+
+Application deployments

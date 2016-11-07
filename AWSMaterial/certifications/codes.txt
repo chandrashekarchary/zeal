@@ -1,0 +1,16 @@
+Main exams
+
+PR000004		AWS Certified Solutions Architect 	– Associate (ENGLISH)
+PR000013		AWS Certified SysOps Administrator	– Associate (ENGLISH)
+PR000014		AWS Certified Developer 			– Associate (ENGLISH)
+PR000024		AWS Certified Solutions Architect 	- Professional (ENGLISH)
+PR000056		AWS Certified DevOps Engineer 		- Professional (ENGLISH)
+
+Practice exams
+
+PR000036		AWS Certified Solutions Architect Associate - Practice Exam (ENGLISH)
+PR000038		AWS Certified Developer Associate 			- Practice Exam (ENGLISH)
+PR000068		AWS Certified DevOps Engineer Professional 	- Practice Exam (ENGLISH)
+PR000039		AWS Certified SysOps Administrator Associate - Practice Exam (ENGLISH)
+PR000040		AWS Certified Solutions Architect Professional - Practice Exam (ENGLISH)
+

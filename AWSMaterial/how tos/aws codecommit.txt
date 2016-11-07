@@ -1,0 +1,30 @@
+To push the code first time
+
+git config --global credential.helper '!aws codecommit credential-helper $@'
+git config --global credential.useHttpPath true
+
+git remote add origin https://git-codecommit.us-east-1.amazonaws.com/v1/repos/chef
+git remote set-url --add --push origin https://git-codecommit.us-east-1.amazonaws.com/v1/repos/chef
+
+git push --set-upstream origin master
+
+git push
+
+
+
+git Client setup
+export the aws access credentials in either of the forms
+AWS_ACCESS_KEY_ID
+AWS_SECRET_ACCESS_KEY
+
+otherwise
+AWS_ACCESS_KEY
+AWS_SECRET_KEY
+
+
+git config --global credential.helper '!aws codecommit credential-helper $@'
+git config --global credential.useHttpPath true
+
+git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/<<<reponame>>>
+
+

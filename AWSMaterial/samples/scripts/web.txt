@@ -1,0 +1,16 @@
+#!/bin/bash
+
+
+
+sed -i -e 's/SELINUX=enforcing/SELINUX=disabled/' /etc/sysconfig/selinux
+
+setenforce 0
+
+yum install -y httpd
+systemctl start httpd
+systemctl enable httpd
+echo "welcome page" > /var/www/html/index.html 
+
+
+
+#knife ssh 192.168.1.22 exec "pwd" -r 'recipe[apache::default]'

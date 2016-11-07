@@ -1,0 +1,17 @@
+#!/bin/bash
+
+
+setenforce 0
+
+#SELINUX=enforcing change to SELINUX=disabled in /etc/sysconfig/selinux
+
+sed -i -e 's/SELINUX=enforcing/SELINUX=disabled/' /etc/sysconfig/selinux
+
+yum install -y httpd
+
+systemctl enable httpd
+systemctl start httpd
+
+echo "welcome page" > /var/www/html/index.html 
+
+http://pkgs.repoforge.org/stress/stress-1.0.2-1.el7.rf.x86_64.rpm

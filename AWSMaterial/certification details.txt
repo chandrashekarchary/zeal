@@ -1,0 +1,63 @@
+
+AWS certification questions & references
+
+http://aws-solution-architect-associate.blogspot.in/
+http://drive.google.com/open?id=0B-ob6L_QjGLpNHAybDNCczFiLTg
+https://hydrasit.com/passed-aws-solutions-architect-professional-exam/
+https://hydrasit.com/how-i-passed-the-aws-devops-engineer-professional-exam/
+
+Android apps
+
+AWS sysops exam
+https://play.google.com/store/apps/details?id=com.cloudpros.awssysops
+
+AWS Developer exam
+https://play.google.com/store/apps/details?id=com.ionicframework.awsquiz543924
+
+
+AWS architect 
+	associate exam
+	https://play.google.com/store/apps/details?id=gs.bigdata.awsTests
+
+	professional exam
+	https://play.google.com/store/apps/details?id=com.ionicframework.awsArch
+	http://cantrill.io/certification/aws/2015/10/04/passing-the-aws-solutions-architect-professional-exam.html
+
+
+Tips Cracking AWS Certified Solutions Architect Associate Level Exam
+
+https://www.youtube.com/watch?v=5EsqFSbZ1t4
+
+
+Certification codes
+
+Main exams
+
+PR000004		AWS Certified Solutions Architect 	– Associate (ENGLISH)
+PR000013		AWS Certified SysOps Administrator	– Associate (ENGLISH)
+PR000014		AWS Certified Developer 			– Associate (ENGLISH)
+PR000024		AWS Certified Solutions Architect 	- Professional (ENGLISH)
+PR000056		AWS Certified DevOps Engineer 		- Professional (ENGLISH)
+
+Practice exams
+
+PR000036		AWS Certified Solutions Architect Associate - Practice Exam (ENGLISH)
+PR000038		AWS Certified Developer Associate 			- Practice Exam (ENGLISH)
+PR000068		AWS Certified DevOps Engineer Professional 	- Practice Exam (ENGLISH)
+PR000039		AWS Certified SysOps Administrator Associate - Practice Exam (ENGLISH)
+PR000040		AWS Certified Solutions Architect Professional - Practice Exam (ENGLISH)
+
+
+Available exam centers
+
+NSE.IT Limited_Hyderabad	403, 4th Floor, Moguls Court, 5-9-60, Basheerbagh	Hyderabad	
+map : https://www.google.com/maps?&z=16&q=17.400146,78.474783&ll=17.400146,78.474783
+
+Gyanvriksh Interactive Private Limited	3rd Floor, QZ Plaza, Kothaguda, Opp Haveli,	Hyderabad
+map : http://maps.google.com/maps?&z=16&q=17.462117,78.366893&ll=17.462117,78.366893
+
+NSE.IT Limited_Vijayawada	9-62-81/C, 1st Floor, Ganapathi Rao Road	Vijayawada
+map : http://maps.google.com/maps?&z=16&q=16.506174,80.648015&ll=16.506174,80.648015
+
+NSE.IT Limited_Visakhapatnam	Door No 404, 47/10/26	Visakhapatnam
+map : https://www.google.com/maps?&z=16&q=17.686816,83.218482&ll=17.686816,83.218482

@@ -1,0 +1,39 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+	{
+	"Effect": "Allow",
+	"Action": [
+		"s3:ListAllMyBuckets"
+		],
+	"Resource": "arn:aws:s3:::*"
+	},
+    {
+      "Effect": "Allow",
+      "Action": [
+        "s3:Put*",
+        "s3:List*",
+		"s3:Delete*",
+		"s3:Get*"
+      ],
+      "Resource": "*"
+    },
+   {
+      "Effect": "Allow",
+      "Action": [
+		"elasticbeanstalk:*ApplicationVersion*",
+		"elasticbeanstalk:Describe*",
+		"elasticbeanstalk:UpdateEnvironment",
+		"cloudformation:Get*",
+		"cloudformation:Describe*",
+		"cloudformation:UpdateStack",
+		"elasticloadbalancing:Describe*",
+		"ec2:Describe*",
+		"autoscaling:*",
+		"sns:*"
+      ],
+      "Resource": "*"
+    }
+	
+  ]
+}

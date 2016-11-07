@@ -1,0 +1,37 @@
+http://docs.aws.amazon.com/codedeploy/latest/userguide/how-to-set-up-new-instance.html
+
+#!/bin/bash
+yum -y update
+yum install -y ruby
+yum install -y awscli
+cd /home/ec2-user
+wget https://bucket-name.s3.amazonaws.com/latest/install or 
+aws s3 cp s3://bucket-name/latest/install . --region region-name
+chmod +x ./install
+./install auto
+
+aws-codedeploy-us-east-1 for instances in the US East (N. Virginia) region
+aws-codedeploy-us-west-2 for instances in the US West (Oregon) region
+aws-codedeploy-us-west-1 for instances in the US West (N. California) region
+aws-codedeploy-eu-west-1 for instances in the EU (Ireland) region
+aws-codedeploy-eu-central-1 for instances in the EU (Frankfurt) region
+aws-codedeploy-ap-southeast-1 for instances in the Asia Pacific (Singapore) region
+aws-codedeploy-ap-southeast-2 for instances in the Asia Pacific (Sydney) region
+aws-codedeploy-ap-northeast-1 for instances in the Asia Pacific (Tokyo) region
+
+us-east-1 for instances in the US East (N. Virginia) region
+us-west-2 for instances in the US West (Oregon) region
+us-west-1 for instances in the US West (N. California) region
+eu-west-1 for instances in the EU (Ireland) region
+eu-central-1 for instances in the EU (Frankfurt) region
+ap-southeast-1 for instances in the Asia Pacific (Singapore) region
+ap-southeast-2 for instances in the Asia Pacific (Sydney) region
+ap-northeast-1 for instances in the Asia Pacific (Tokyo) region
+
+for us-east-1
+aws s3 cp s3://aws-codedeploy-us-east-1/latest/install . --region region-name
+
+
+aws deploy register --instance-name vboxnode5 --iam-user-arn arn:aws:iam::80398EXAMPLE:user/CodeDeployUser-OnPrem --tags Key=Name,Value=CodeDeployDemo-OnPrem --region us-west-2
+
+aws deploy install --override-config --config-file /tmp/codedeploy.onpremises.yml --region us-west-2 --agent-installer s3://aws-codedeploy-us-west-2/latest/codedeploy-agent.msi
